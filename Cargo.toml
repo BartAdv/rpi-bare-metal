@@ -1,0 +1,11 @@
+[package]
+name = "rpi-bare-metal"
+version = "0.1.0"
+authors = ["Bartosz Przygoda <bprzygoda@gmail.com>"]
+
+[lib]
+
+[dependencies]
+
+[profile.dev]
+panic = "abort"
